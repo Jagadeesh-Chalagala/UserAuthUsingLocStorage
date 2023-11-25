@@ -1,0 +1,40 @@
+.container {
+  width: 40%;
+}
+
+.form-container {
+  border: 2px solid rgb(237, 229, 229);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 3px 4px 20px 1px #aaaab5;
+}
+
+.btn {
+  width: 100%;
+  background: #625bf7;
+  height: 3rem;
+  margin-top: 20px;
+}
+
+#error-text {
+  /* visibility: hidden; */
+  display: none;
+  padding-top: 25px;
+  animation: exampleAnimation 1s linear infinite;
+}
+
+#orSignUp {
+  margin-top: 30px;
+}
+/* Animations */
+
+@keyframes exampleAnimation {
+  from {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
